@@ -1,0 +1,3 @@
+# OUTPUT IMAGE 8
+
+![REQUIREMENTS](image.png)

@@ -1,0 +1,89 @@
+<!-- Create a navigation bar similar to question 1. For each navigation item, use a different border style. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigation bar</title>
+    <style>
+        .NAV{
+            margin: 10px;
+            padding: 20px;
+            display: block;
+            font-size: 20px;
+            font-family: cursive;
+            background-color: rgb(48, 113, 169);
+            justify-content: space-between;
+
+        }
+
+        a {
+            padding: 10px;
+            color: rgb(255, 255, 255);
+        
+        }
+
+        a:nth-child(1) {
+            
+           border: 2px solid rgb(102, 255, 135);
+           border-radius: 20px;
+           border-left: 2px dashed rgb(219, 255, 112);
+           border-right: 2px dotted rgb(255, 98, 130);
+           border-top: 2px double rgb(255, 89, 225);
+           
+        }
+
+        a:nth-child(2) {
+            border: 2px solid rgb(102, 255, 135);
+            border-radius: 20px;
+            border-left: 2px dashed rgb(74, 255, 246);
+            border-right: 2px dotted rgb(255, 187, 78 ,09);
+            border-top: 2px ridge rgb(144, 18, 255);
+            border-style: r;
+        }
+
+        a:nth-child(3) {
+            border: 2px solid rgb(102, 255, 135);
+            box-shadow: 2px 1px 10px rgba(227, 255, 69, 0.5)
+            
+        }
+
+        a:nth-child(4) {
+            border: 2px solid rgb(255, 88, 252);
+           border-radius: 20px;
+           border-left: 2px dashed rgb(255, 0, 153);
+           border-right: 2px dotted rgb(255, 237, 72);
+           border-top: 6px double rgb(70, 119, 255);
+        }
+
+        a:nth-child(5) {
+            border-top: 4px ridge #54a9ff;
+            border-right: 3px ridge #ff6452;
+            border-bottom: 3px ridge #2bff83;
+            border-left: 4px ridge #ffab25;
+            border-radius: 15px;
+        }
+
+        nav :hover{
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+
+<body>
+    <h1>NAVIGATION BAR</h1>
+    <header>
+        <div class="NAV">
+            <nav>
+                <a href="/SOLUTION 1/Solution 1.html">Home</a>
+                <a href="/SOLUTION 1/Solution 1.html">About Us</a>
+                <a href="/SOLUTION 1/Solution 1.html">Contact</a>
+                <a href="/SOLUTION 1/Solution 1.html">Blog</a>
+                <a href="/SOLUTION 1/Solution 1.html">Login</a>
+            </nav>
+        </div>
+
+    </header>
+</body>
+</html>
